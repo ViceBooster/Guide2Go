@@ -1,6 +1,6 @@
 # This is a Fork of the broken EPGO, from the often missing in action chuchodavids.
 
-I implemented changes that were missing in the current epgo version.
+He changed the name of the project and readme, but not the fuckin' $PATH for his new epgo commands, so here's a cleaner readme.
 
 **Recent changes:**
 
