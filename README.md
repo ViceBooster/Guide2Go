@@ -2,12 +2,6 @@
 
 He changed the name of the project and readme, but not the fuckin' $PATH for his new epgo commands, so here's a cleaner readme.
 
-**Recent changes:**
-
-1. For players like tiviMate I added the "live" and "new" icon in the tittle of the program. This is usually auto-added in Emby or other IPTV players, but TiviMate does not do this by reading XML tags.
-1. Searching for channel to add is no longer a painful task. It can be done easily from the terminal
-1. Add images to shows from The Movie Database
-
 ### Docker Install (via Docker Compose File)
 
 I need to set up the docker image. However, you can build your own by running:
