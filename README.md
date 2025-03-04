@@ -2,7 +2,7 @@
 
 He changed the name of the project and readme, but not the fuckin' $PATH for his new EPGO commands, so here's a cleaner readme. I will update and add things as I reinvision this fork.
 
-### Docker Install (via Docker Compose File)
+### Docker Install (via Docker Compose File) [Still the old version]
 
 I need to set up the docker image. However, you can build your own by running:
 
