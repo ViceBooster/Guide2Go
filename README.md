@@ -1,6 +1,6 @@
 # This is a Fork of the broken EPGO, from the often missing in action chuchodavids.
 
-He changed the name of the project and readme, but not the fuckin' $PATH for his new epgo commands, so here's a cleaner readme.
+He changed the name of the project and readme, but not the fuckin' $PATH for his new EPGO commands, so here's a cleaner readme.
 
 ### Docker Install (via Docker Compose File)
 
@@ -10,22 +10,22 @@ I need to set up the docker image. However, you can build your own by running:
 ```
 version: "3.4"
 services:
-    epgo:
+    guide2go:
       container_name: guide2go
-      image: chuchodavids/epgo:stable
+      image: chuchodavids/guide2go:stable
       ports:
         - 8080:8080
       environment:
         - TZ: America/Chicago
       volumes:
-        - /YOU_APP_PATH/epgo:/app
+        - /YOU_APP_PATH/guide2go:/app
         - /YOUR_IMAGE_PATH:/app/images
       restart: always
 ```
 
 ## Using the APP
 
-```epgo -h```
+```guide2go -h```
 
 ```bash
 -config string
@@ -71,6 +71,6 @@ Remove Lineup from the Schedules Direct account.
 4. Manage Channels:  
 Selection of the channels to be used.
 All selected channels are merged into one XML file when the XMLTV file is created.
-When using all channels from all lineups it is recommended to create a separate epgo configuration file for each lineup.  
+When using all channels from all lineups it is recommended to create a separate guide2go configuration file for each lineup.  
 5. Create XMLTV File [MY_CONFIG_FILE.xml]:  
 Creates the XMLTV file with the selected channels.
