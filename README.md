@@ -1,6 +1,6 @@
 # This is a Fork of the broken EPGO, from the often missing in action chuchodavids.
 
-He changed the name of the project and readme, but not the fuckin' $PATH for his new EPGO commands, so here's a cleaner readme.
+He changed the name of the project and readme, but not the fuckin' $PATH for his new EPGO commands, so here's a cleaner readme. I will update and add things as I reinvision this fork.
 
 ### Docker Install (via Docker Compose File)
 
